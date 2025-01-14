@@ -73,7 +73,7 @@ Swagger em `http://localhost:3000/swagger`
 Para rodar os testes unitários e de integração, utilize o seguinte comando:
 
 ```sh
-docker compose run nestjs-app npm run test
+docker compose run nestjs-app npm run test:cov
 ```
 
 ### Parando os Containers
